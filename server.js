@@ -1,4 +1,4 @@
-//Constent variable.
+//Constent variables.
 const express = require('express')
 const bodyParser = require('body-parser')
 const requestObj = require('request');
