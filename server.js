@@ -6,8 +6,8 @@ const mongoose = require("mongoose");
 const { static } = require('express');
 const { post } = require('request');
 const PORT = process.env.PORT || 3000
-const url = "mongodb://localhost:27017/ToDoListDB";
-
+//const url = "mongodb://localhost:27017/ToDoListDB";
+const url = "mongodb+srv://shavezkhan-admin:DevOp123@cluster0.2oic9.mongodb.net/ToDoApp";
 const app = express();
 app.use(bodyParser.urlencoded({
     extended: true
